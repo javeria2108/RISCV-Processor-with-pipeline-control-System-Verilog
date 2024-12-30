@@ -1,7 +1,6 @@
 # RISC-V Pipelined Processor Implementation
 
-Welcome to the repository for my **RISC-V Processor** implemented in **SystemVerilog**. This project was developed as part of my **Computer Architecture Lab** course under the guidance of **Sir Afeef**. 🚀
-
+Welcome to the repository for my **RISC-V Processor** implemented in **SystemVerilog**. 
 ## 📜 Features
 - **Instruction Set Support**: Implements all RISC-V base instruction types:
   - **R**, **I**, **S**, **B**, **U**, and **J**
@@ -42,7 +41,7 @@ The repository contains the following files:
 ## 📚 How to Use
 1. Clone the repository:
    ```bash
-   git clone https://github.com/<your-username>/riscv-pipelined-processor.git
+   git clone https://github.com/javeria2108/RISCV-Processor-with-pipeline-control-System-Verilog.git
    ```
 2. Run the simulation using your preferred SystemVerilog simulator (e.g., ModelSim, VCS, or Verilator).
 3. Load the testbench (processor_tb.sv) to verify functionality.
