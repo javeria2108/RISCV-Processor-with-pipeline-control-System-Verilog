@@ -1,0 +1,553 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Documents/sem7/CA Lab/RISC V RISBUJ
+T_opt
+!s110 1735200256
+VO=ekdC3nlDlc5Qhcc1]SH1
+04 12 4 work tb_processor fast 0
+=1-28f10e103a1d-676d0e00-130-1f40
+o-quiet -auto_acc_if_foreign -work work +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.6c;65
+valu
+Z2 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z3 !s110 1735200253
+!i10b 1
+!s100 P6hU^<8a@PY]i^V4MM:<:1
+IV@9mcBY5bI>>lZeI_9h=?2
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+!s105 alu_sv_unit
+S1
+R0
+w1732631998
+8./alu.sv
+F./alu.sv
+L0 1
+Z5 OL;L;10.6c;65
+r1
+!s85 0
+31
+Z6 !s108 1735200253.000000
+Z7 !s107 ./tb_processor.sv|./sign_extend.sv|./reg_file.sv|./processor.sv|./pc.sv|./multiplexer_writeback.sv|./multiplexer_pc.sv|./multiplexer_b.sv|./multiplexer_a.sv|./MEM_WB_reg.sv|./inst_mem.sv|./inst_dec.sv|./immediate_generator.sv|./IF_ID_reg.sv|./ID_EX_reg.sv|./EX_MEM_Reg.sv|./data_mem.sv|./CSR_register_file.sv|./controller.sv|./branch_cond.sv|./alu.sv|
+Z8 !s90 ./alu.sv|./branch_cond.sv|./controller.sv|./CSR_register_file.sv|./data_mem.sv|./EX_MEM_Reg.sv|./ID_EX_reg.sv|./IF_ID_reg.sv|./immediate_generator.sv|./inst_dec.sv|./inst_mem.sv|./MEM_WB_reg.sv|./multiplexer_a.sv|./multiplexer_b.sv|./multiplexer_pc.sv|./multiplexer_writeback.sv|./pc.sv|./processor.sv|./reg_file.sv|./sign_extend.sv|./tb_processor.sv|
+!i113 0
+Z9 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vbranch_cond
+R2
+R3
+!i10b 1
+!s100 0ZA9VQB2K4_m6R:W>^ZAV1
+Iz4OJ?^QGm4idUORP784nh0
+R4
+!s105 branch_cond_sv_unit
+S1
+R0
+w1732628990
+8./branch_cond.sv
+F./branch_cond.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+vcontroller
+R2
+R3
+!i10b 1
+!s100 PKH_Gd[=?5akoTmd]zIYe1
+I@2CE=N;]YKoSAmT=UWaFU0
+R4
+!s105 controller_sv_unit
+S1
+R0
+w1732726848
+8./controller.sv
+F./controller.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+vCSR_register
+R2
+R3
+!i10b 1
+!s100 T=ac1_i^6>Oz]6^dMjR241
+IR_>[5XR1Gf5]?f_HR=n8@1
+R4
+Z10 !s105 CSR_register_file_sv_unit
+S1
+R0
+w1732728454
+Z11 8./CSR_register_file.sv
+Z12 F./CSR_register_file.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+n@c@s@r_register
+vCSR_register_file
+R2
+!s110 1732632470
+!i10b 1
+!s100 >FP4So>OCk2lUVhM81G=F2
+I1DZSa=S?ji0aE^j]B1M]o3
+R4
+R10
+S1
+R0
+w1732128646
+R11
+R12
+L0 1
+R5
+r1
+!s85 0
+31
+!s108 1732632470.000000
+!s107 ./tb_processor.sv|./sign_extend.sv|./reg_file.sv|./processor.sv|./pc.sv|./multiplexer_writeback.sv|./multiplexer_pc.sv|./multiplexer_b.sv|./multiplexer_a.sv|./inst_mem.sv|./inst_dec.sv|./immediate_generator.sv|./data_mem.sv|./CSR_register_file.sv|./controller.sv|./branch_cond.sv|./alu.sv|
+!s90 ./alu.sv|./branch_cond.sv|./controller.sv|./CSR_register_file.sv|./data_mem.sv|./immediate_generator.sv|./inst_dec.sv|./inst_mem.sv|./multiplexer_a.sv|./multiplexer_b.sv|./multiplexer_pc.sv|./multiplexer_writeback.sv|./pc.sv|./processor.sv|./reg_file.sv|./sign_extend.sv|./tb_processor.sv|
+!i113 0
+R9
+R1
+n@c@s@r_register_file
+vdata_mem
+R2
+R3
+!i10b 1
+!s100 WWEAAL5lRNb@;YCh^nZF[3
+IAiQG>W_z5WjSFkBZNen=J0
+R4
+!s105 data_mem_sv_unit
+S1
+R0
+w1732457640
+8./data_mem.sv
+F./data_mem.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+vEX_MEM
+R2
+R3
+!i10b 1
+!s100 =ccg8`A<D9<9H6fhQ0M230
+IKojXFVlI^J`>W`Tao]I@]3
+R4
+!s105 EX_MEM_Reg_sv_unit
+S1
+R0
+w1735200146
+8./EX_MEM_Reg.sv
+F./EX_MEM_Reg.sv
+L0 2
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+n@e@x_@m@e@m
+vID_EX
+R2
+R3
+!i10b 1
+!s100 NzKi@hnjOlFaYFA9MfXn]0
+IdRcSiJ=gga9KIkEHK3B:S3
+R4
+!s105 ID_EX_reg_sv_unit
+S1
+R0
+w1735200045
+8./ID_EX_reg.sv
+F./ID_EX_reg.sv
+L0 2
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+n@i@d_@e@x
+vIF_ID
+R2
+R3
+!i10b 1
+!s100 JZdD10an7C<Bd0Y?>QfNd0
+I2]?mcR?S[R`=kP8o>oako0
+R4
+!s105 IF_ID_reg_sv_unit
+S1
+R0
+w1735199524
+8./IF_ID_reg.sv
+F./IF_ID_reg.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+n@i@f_@i@d
+vimmediate_generator
+R2
+R3
+!i10b 1
+!s100 S0>^Yn>>[Q5>o;PN8Bim53
+I7^Va^^88DIagoOi:U`O[@0
+R4
+!s105 immediate_generator_sv_unit
+S1
+R0
+w1733304824
+8./immediate_generator.sv
+F./immediate_generator.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+vinst_dec
+R2
+R3
+!i10b 1
+!s100 1doWmV9@S^99Pn1[_CkhS2
+ID2El=d=UR4EnA_P>=n90?1
+R4
+!s105 inst_dec_sv_unit
+S1
+R0
+w1728549514
+8./inst_dec.sv
+F./inst_dec.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+vinst_mem
+R2
+R3
+!i10b 1
+!s100 DJB]LJ>BV_cWB6TeSbncl3
+I0Qi<gaUdl2??KY9D<CWYX3
+R4
+!s105 inst_mem_sv_unit
+S1
+R0
+w1727950968
+8./inst_mem.sv
+F./inst_mem.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+vMEM_WB
+R2
+R3
+!i10b 1
+!s100 O^M;hH`PPMJj1Tl3gdF2>1
+Imm=oime7^F<O2h1fnhDJ22
+R4
+!s105 MEM_WB_reg_sv_unit
+S1
+R0
+w1735200159
+8./MEM_WB_reg.sv
+F./MEM_WB_reg.sv
+L0 2
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+n@m@e@m_@w@b
+vmultiplexer_a
+R2
+R3
+!i10b 1
+!s100 V3GeV@G20OmUGJcNIUCCF2
+I_:MHWBn?3^E6@;RM5Bc:h0
+R4
+!s105 multiplexer_a_sv_unit
+S1
+R0
+w1730914552
+8./multiplexer_a.sv
+F./multiplexer_a.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+vmultiplexer_b
+R2
+R3
+!i10b 1
+!s100 Na_UJ<bQ4fhKkYZR2zUN13
+Iz:a>IBkHJBcdJ1alSZkjG3
+R4
+!s105 multiplexer_b_sv_unit
+S1
+R0
+w1732520192
+8./multiplexer_b.sv
+F./multiplexer_b.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+vmultiplexer_pc
+R2
+R3
+!i10b 1
+!s100 kZKN15e4VP>;>GkC5Zm3Q1
+I>12@XVbJ<c6?cCifb`0Sg2
+R4
+!s105 multiplexer_pc_sv_unit
+S1
+R0
+w1732728014
+8./multiplexer_pc.sv
+F./multiplexer_pc.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+vmultiplexer_writeback
+R2
+R3
+!i10b 1
+!s100 1^BADh6Hi^Ob72dG>mQo01
+IIFOEH@5SB98Km`B^Nz@kQ1
+R4
+!s105 multiplexer_writeback_sv_unit
+S1
+R0
+w1732465310
+8./multiplexer_writeback.sv
+F./multiplexer_writeback.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+vpc
+R2
+R3
+!i10b 1
+!s100 Nf6A91C6lSKW@GaEBN]c;3
+I[Pzj=DQ0Y5m>K_8Z<UZZ70
+R4
+!s105 pc_sv_unit
+S1
+R0
+w1735200249
+8./pc.sv
+F./pc.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+vprocessor
+R2
+R3
+!i10b 1
+!s100 @_QFn<B9eaYC44N29UHjJ3
+IXSm`=SMKLM5`hm=Q[kiCE3
+R4
+!s105 processor_sv_unit
+S1
+R0
+w1735200215
+8./processor.sv
+F./processor.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+vreg_file
+R2
+R3
+!i10b 1
+!s100 KAAV?aRWUcM`[EcPR8oNc3
+IeU`dodQGV;MZOHEMP_e:o2
+R4
+!s105 reg_file_sv_unit
+S1
+R0
+w1729097488
+8./reg_file.sv
+F./reg_file.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+vsign_extend
+R2
+R3
+!i10b 1
+!s100 Lho0E9;0zNjFRDnoAi4nZ2
+I=;X=]?NYj[A9JTm<fA:b93
+R4
+!s105 sign_extend_sv_unit
+S1
+R0
+w1732520280
+8./sign_extend.sv
+F./sign_extend.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+vtb_processor
+R2
+R3
+!i10b 1
+!s100 ]:RB11C6lKgnd4QFMBdea0
+IR:K2N1]MmTPeMRJglZF8g1
+R4
+!s105 tb_processor_sv_unit
+S1
+R0
+w1732604624
+8./tb_processor.sv
+F./tb_processor.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
